@@ -12518,8 +12518,9 @@ function C1() {
     const u = [
         { name: "Beranda", href: "/", type: "internal" },
         { name: "Tentang Kami", href: "#about", type: "anchor" },
-        { name: "Katalog", href: "https://store.haebot.com", type: "external" },
+        { name: "Katalog", href: "https://store.haebot.com/katalog", type: "external" },
         { name: "Project", href: "https://project.haebot.com", type: "external" },
+        { name: "Network ERP & AI", href: "https://nerpai.app", type: "external" },
     ];
     return y.jsx("nav", {
         className: Ge(
@@ -16946,7 +16947,7 @@ function dk() {
                                         "flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300",
                                     children: [
                                         y.jsx("a", {
-                                            href: "https://store.haebot.com",
+                                            href: "https://store.haebot.com/katalog",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             children: y.jsxs(xn, {
@@ -17038,12 +17039,12 @@ function dk() {
                                     children: [
                                         y.jsx("h2", {
                                             className: "text-3xl lg:text-4xl font-bold font-display mb-4",
-                                            children: "Kategori Produk",
+                                            children: "Kategori Produk & Jasa",
                                         }),
                                         y.jsx("p", {
                                             className: "text-muted-foreground text-lg",
                                             children:
-                                                "Temukan berbagai komponen berkualitas tinggi untuk mesin CNC Anda.",
+                                                "Temukan berbagai solusi kebutuhan Bisnis anda",
                                         }),
                                     ],
                                 }),
@@ -17069,27 +17070,27 @@ function dk() {
                             className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
                             children: [
                                 y.jsx(ia, {
-                                    title: "Linear Motion",
-                                    description: "Bearings, blocks (SCS Series), dan rails presisi tinggi.",
+                                    title: "Spareparts CNC & Otomasi",
+                                    description: "Bearings, Rails, Mekanik, Kontrol",
                                     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
                                     link: "https://store.haebot.com",
                                 }),
                                 y.jsx(ia, {
-                                    title: "Fasteners",
-                                    description: "Berbagai jenis baut dan mur spesifikasi industri.",
-                                    image: "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=800&q=80",
+                                    title: "Machine CNC",
+                                    description: "Mesin CNC, Dukungan Ahli, Garansi, dan After Sales",
+                                    image: "https://bodo.nerpai.app/storage/uploads/items/2031/1tDkMLBVSjSMIaE5NmYrIUGGXJlkP4HSFP9GGZyo.jpg",
                                     link: "https://store.haebot.com",
                                 }),
                                 y.jsx(ia, {
-                                    title: "Electronics",
-                                    description: "Controller DSP, Modul IoT, Driver Motor, dan Sensor.",
-                                    image: "https://images.unsplash.com/photo-1555664424-778a6902201b?w=800&q=80",
-                                    link: "https://store.haebot.com",
+                                    title: "ERP & AI Integrasi",
+                                    description: "Integrasi ERP dan AI di bisnis anda, custom, maupun siap pakai berbasis cloud",
+                                    image: "https://www.nerpai.app/images/hero-mockup.webp",
+                                    link: "https://nerpai.app",
                                 }),
                                 y.jsx(ia, {
-                                    title: "Mechanical",
-                                    description: "Komponen mekanik struktural alumunium dan aksesoris.",
-                                    image: "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+                                    title: "E-Commerce & CRM",
+                                    description: "Integrasi Bisnis Online dan Offline dan kontrol pelanggan dalam platform",
+                                    image: "https://i0.wp.com/gits.id/wp-content/uploads/2021/02/Contoh-Aplikasi-E-commerce-dan-Website.jpg?fit=547%2C547&ssl=1",
                                     link: "https://store.haebot.com",
                                 }),
                             ],
@@ -17388,6 +17389,13 @@ function dk() {
                                                         children: "Project",
                                                     }),
                                                 }),
+                                                y.jsx("li", {
+                                                    children: y.jsx("a", {
+                                                        href: "https://nerpai.app",
+                                                        className: "hover:text-primary transition-colors",
+                                                        children: "Network ERP & AI",
+                                                    }),
+                                                }),
                                             ],
                                         }),
                                     ],
@@ -17423,7 +17431,7 @@ function dk() {
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " PT Haebot Teknologi Indonesia. All rights reserved.",
+                                " Haebot Teknologi Indonesia. All rights reserved.",
                             ],
                         }),
                     ],
